@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NammaMarga - Public Information Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🧭 NammaMarga</h1>
+        <p>Your Guide to Public Information</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#schemes">Government Schemes</a>
+        <a href="#transport">Bus Routes</a>
+        <a href="#healthcare">Healthcare</a>
+    </nav>
+
+    <main>
+
+        <section id="home">
+            <h2>Welcome to NammaMarga</h2>
+
+            <p>
+                Access public information easily in your
+                preferred language.
+            </p>
+
+            <div class="language-box">
+                <label for="language">Choose Language:</label>
+
+                <select id="language">
+                    <option value="en">English</option>
+                    <option value="kn">Kannada</option>
+                    <option value="hi">Hindi</option>
+                </select>
+
+                <button id="speakButton" type="button">
+                    🔊 Read Page
+                </button>
+
+                <button id="stopButton" type="button">
+                    ⏹ Stop
+                </button>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Explore Our Services</h2>
+
+            <p>Choose a service to find the information you need.</p>
+
+            <div class="service-container">
+
+                <div class="service-card">
+                    <div class="service-icon">🏛️</div>
+                    <h3>Government Schemes</h3>
+                    <p>
+                        Discover government welfare schemes
+                        and public benefits.
+                    </p>
+                    <a href="#schemes">Explore Schemes</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🚌</div>
+                    <h3>Bus Routes</h3>
+                    <p>
+                        Find public transport routes
+                        and travel information.
+                    </p>
+                    <a href="#transport">Explore Routes</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🏥</div>
+                    <h3>Healthcare</h3>
+                    <p>
+                        Find clinic information,
+                        services and timings.
+                    </p>
+                    <a href="#healthcare">Find Clinics</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🚨</div>
+                    <h3>Emergency Information</h3>
+                    <p>
+                        Access important emergency
+                        contact information.
+                    </p>
+                    <a href="#emergency">View Information</a>
+                </div>
+
+            </div>
+        </section>
+
+        
+<section id="schemes">
+
+    <h2>Government Schemes</h2>
+
+    <p>Find information about public welfare schemes.</p>
+
+    <!-- Search Bar -->
+    <input
+        type="text"
+        id="schemeSearch"
+        placeholder="Search government schemes..."
+    >
+
+    <!-- Scheme Cards -->
+    <div class="scheme-container">
+
+        <div class="scheme-card">
+            <h3>PM-KISAN Scheme</h3>
+            <p>Financial assistance of ₹6,000 per year to eligible landholding farmer families.</p>
+            <p><strong>Eligibility:</strong> Eligible landholding farmer families, subject to exclusions.</p>
+            <p><strong>Benefits:</strong> Three instalments of ₹2,000 per year.</p>
+            <a href="https://pmkisan.gov.in/" target="_blank" rel="noopener">Official Website</a>
+        </div>
+
+        <div class="scheme-card">
+            <h3>Ayushman Bharat (PM-JAY)</h3>
+            <p>Provides eligible beneficiaries access to hospital treatment.</p>
+            <p><strong>Eligibility:</strong> Identified eligible families and senior citizens aged 70 and above.</p>
+            <p><strong>Benefits:</strong> Health cover up to ₹5 lakh per family per year under applicable scheme rules.</p>
+            <a href="https://pmjay.gov.in/" target="_blank" rel="noopener">Official Website</a>
+        </div>
+
+        <div class="scheme-card">
+            <h3>Pradhan Mantri Ujjwala Yojana</h3>
+            <p>Supports eligible women from poor households in accessing LPG connections.</p>
+            <p><strong>Eligibility:</strong> Adult women from eligible poor households without an existing LPG connection in the household.</p>
+            <p><strong>Benefits:</strong> Deposit-free LPG connection and applicable additional benefits.</p>
+            <a href="https://www.pmuy.gov.in/" target="_blank" rel="noopener">Official Website</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+        <section id="transport">
+            <h2>Bus Routes</h2>
+            <p>
+                Explore public transport information.
+            </p>
+        </section>
+
+        <section id="healthcare">
+            <h2>Healthcare Information</h2>
+            <p>
+                Find nearby clinics and their timings.
+            </p>
+        </section>
+
+        <section id="emergency">
+            <h2>Emergency Information</h2>
+            <p>
+                Find important emergency contact information
+                and public assistance services.
+            </p>
+            <p>
+                For immediate emergencies in India,
+                call 112.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 NammaMarga. All rights reserved.</p>
+        <p>Making public information accessible to everyone.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
