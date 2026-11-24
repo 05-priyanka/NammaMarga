@@ -1,9 +1,11 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NammaMarga - A multilingual public information platform">
     <title>NammaMarga - Public Information Platform</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,173 +14,211 @@
 
     <header>
         <h1>🧭 NammaMarga</h1>
-        <p>Your Guide to Public Information</p>
+        <p data-i18n="tagline">Your Guide to Public Information</p>
     </header>
 
     <nav>
-        <a href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#schemes">Government Schemes</a>
-        <a href="#transport">Bus Routes</a>
-        <a href="#healthcare">Healthcare</a>
+        <a href="#home" data-i18n="home">Home</a>
+        <a href="#services" data-i18n="services">Services</a>
+        <a href="#schemes" data-i18n="schemesTitle">Government Schemes</a>
+        <a href="#transport" data-i18n="transportTitle">Bus Routes</a>
+        <a href="#healthcare" data-i18n="healthcareTitle">Healthcare</a>
+        <a href="#emergency" data-i18n="emergencyTitle">Emergency</a>
     </nav>
 
     <main>
 
-        <section id="home">
-            <h2>Welcome to NammaMarga</h2>
+        <!-- HOME -->
+        <section id="home" class="hero">
 
-            <p>
-                Access public information easily in your
-                preferred language.
+            <h2 data-i18n="welcome">Welcome to NammaMarga</h2>
+
+            <p data-i18n="intro">
+                Access public information easily in your preferred language.
             </p>
 
             <div class="language-box">
-                <label for="language">Choose Language:</label>
+
+                <label for="language" data-i18n="choose">
+                    Choose Language:
+                </label>
 
                 <select id="language">
                     <option value="en">English</option>
-                    <option value="kn">Kannada</option>
-                    <option value="hi">Hindi</option>
+                    <option value="kn">ಕನ್ನಡ</option>
+                    <option value="hi">हिन्दी</option>
                 </select>
 
-                <button id="speakButton" type="button">
+                <button id="speakButton" type="button" data-i18n="read">
                     🔊 Read Page
                 </button>
 
-                <button id="stopButton" type="button">
+                <button id="stopButton" type="button" data-i18n="stop">
                     ⏹ Stop
                 </button>
+
             </div>
+
         </section>
 
+        <!-- SERVICES -->
         <section id="services">
-            <h2>Explore Our Services</h2>
 
-            <p>Choose a service to find the information you need.</p>
+            <h2 data-i18n="explore">Explore Our Services</h2>
+
+            <p data-i18n="serviceIntro">
+                Choose a service to find the information you need.
+            </p>
 
             <div class="service-container">
 
                 <div class="service-card">
                     <div class="service-icon">🏛️</div>
-                    <h3>Government Schemes</h3>
-                    <p>
-                        Discover government welfare schemes
-                        and public benefits.
+                    <h3 data-i18n="serviceSchemes">Government Schemes</h3>
+                    <p data-i18n="schemeDesc">
+                        Discover government welfare schemes and public benefits.
                     </p>
-                    <a href="#schemes">Explore Schemes</a>
+                    <a href="#schemes" data-i18n="exploreSchemes">
+                        Explore Schemes
+                    </a>
                 </div>
 
                 <div class="service-card">
                     <div class="service-icon">🚌</div>
-                    <h3>Bus Routes</h3>
-                    <p>
-                        Find public transport routes
-                        and travel information.
+                    <h3 data-i18n="serviceBus">Bus Routes</h3>
+                    <p data-i18n="busDesc">
+                        Find public transport routes and travel information.
                     </p>
-                    <a href="#transport">Explore Routes</a>
+                    <a href="#transport" data-i18n="exploreRoutes">
+                        Explore Routes
+                    </a>
                 </div>
 
                 <div class="service-card">
                     <div class="service-icon">🏥</div>
-                    <h3>Healthcare</h3>
-                    <p>
-                        Find clinic information,
-                        services and timings.
+                    <h3 data-i18n="serviceHealth">Healthcare</h3>
+                    <p data-i18n="healthDesc">
+                        Find clinic information, services and timings.
                     </p>
-                    <a href="#healthcare">Find Clinics</a>
+                    <a href="#healthcare" data-i18n="findClinics">
+                        Find Clinics
+                    </a>
                 </div>
 
                 <div class="service-card">
                     <div class="service-icon">🚨</div>
-                    <h3>Emergency Information</h3>
-                    <p>
-                        Access important emergency
-                        contact information.
+                    <h3 data-i18n="serviceEmergency">Emergency Information</h3>
+                    <p data-i18n="emergencyDesc">
+                        Access important emergency contact information.
                     </p>
-                    <a href="#emergency">View Information</a>
+                    <a href="#emergency" data-i18n="viewInfo">
+                        View Information
+                    </a>
                 </div>
 
             </div>
         </section>
 
-        
-<section id="schemes">
+        <!-- GOVERNMENT SCHEMES -->
+        <section id="schemes">
 
-    <h2>Government Schemes</h2>
+            <h2 data-i18n="schemesTitle">Government Schemes</h2>
 
-    <p>Find information about public welfare schemes.</p>
-
-    <!-- Search Bar -->
-    <input
-        type="text"
-        id="schemeSearch"
-        placeholder="Search government schemes..."
-    >
-
-    <!-- Scheme Cards -->
-    <div class="scheme-container">
-
-        <div class="scheme-card">
-            <h3>PM-KISAN Scheme</h3>
-            <p>Financial assistance of ₹6,000 per year to eligible landholding farmer families.</p>
-            <p><strong>Eligibility:</strong> Eligible landholding farmer families, subject to exclusions.</p>
-            <p><strong>Benefits:</strong> Three instalments of ₹2,000 per year.</p>
-            <a href="https://pmkisan.gov.in/" target="_blank" rel="noopener">Official Website</a>
-        </div>
-
-        <div class="scheme-card">
-            <h3>Ayushman Bharat (PM-JAY)</h3>
-            <p>Provides eligible beneficiaries access to hospital treatment.</p>
-            <p><strong>Eligibility:</strong> Identified eligible families and senior citizens aged 70 and above.</p>
-            <p><strong>Benefits:</strong> Health cover up to ₹5 lakh per family per year under applicable scheme rules.</p>
-            <a href="https://pmjay.gov.in/" target="_blank" rel="noopener">Official Website</a>
-        </div>
-
-        <div class="scheme-card">
-            <h3>Pradhan Mantri Ujjwala Yojana</h3>
-            <p>Supports eligible women from poor households in accessing LPG connections.</p>
-            <p><strong>Eligibility:</strong> Adult women from eligible poor households without an existing LPG connection in the household.</p>
-            <p><strong>Benefits:</strong> Deposit-free LPG connection and applicable additional benefits.</p>
-            <a href="https://www.pmuy.gov.in/" target="_blank" rel="noopener">Official Website</a>
-        </div>
-
-    </div>
-
-</section>
-
-
-        <section id="transport">
-            <h2>Bus Routes</h2>
-            <p>
-                Explore public transport information.
+            <p data-i18n="schemeIntro">
+                Find information about public welfare schemes.
             </p>
+
+            <input
+                type="search"
+                id="schemeSearch"
+                data-i18n-placeholder="schemePlaceholder"
+                placeholder="Search government schemes..."
+                aria-label="Search government schemes"
+            >
+
+            <div class="scheme-container" id="schemeContainer"></div>
+
+            <p id="schemeNoResults" class="no-results" hidden>
+                No schemes found.
+            </p>
+
         </section>
 
+        <!-- BUS ROUTES -->
+        <section id="transport">
+
+            <h2 data-i18n="transportTitle">Bus Routes</h2>
+
+            <p data-i18n="busIntro">
+                Find bus routes, starting points and destinations.
+            </p>
+
+            <input
+                type="search"
+                id="busSearch"
+                data-i18n-placeholder="busPlaceholder"
+                placeholder="Search by bus number or destination..."
+                aria-label="Search bus routes"
+            >
+
+            <div class="bus-container" id="busContainer"></div>
+
+            <p id="busNoResults" class="no-results" hidden>
+                No bus routes found.
+            </p>
+
+            <p class="notice" data-i18n="sampleNotice">
+                Note: These are sample routes for demonstration. Verify routes with BMTC.
+            </p>
+
+        </section>
+
+        <!-- HEALTHCARE -->
         <section id="healthcare">
-            <h2>Healthcare Information</h2>
-            <p>
+
+            <h2 data-i18n="healthcareTitle">Healthcare Information</h2>
+
+            <p data-i18n="healthIntro">
                 Find nearby clinics and their timings.
             </p>
+
+            <div class="info-card">
+                <div class="service-icon">🏥</div>
+                <h3 data-i18n="healthComingTitle">Clinic Information</h3>
+                <p data-i18n="healthComingText">
+                    Verified clinic addresses, services and timings will be added here.
+                </p>
+            </div>
+
         </section>
 
+        <!-- EMERGENCY -->
         <section id="emergency">
-            <h2>Emergency Information</h2>
-            <p>
-                Find important emergency contact information
-                and public assistance services.
+
+            <h2 data-i18n="emergencyTitle">Emergency Information</h2>
+
+            <p data-i18n="emergencyIntro">
+                Find important emergency contact information and public assistance services.
             </p>
-            <p>
-                For immediate emergencies in India,
-                call 112.
-            </p>
+
+            <div class="emergency-card">
+                <div class="service-icon">🚨</div>
+                <h3 data-i18n="emergencyNumberTitle">National Emergency Number</h3>
+                <a href="tel:112" class="emergency-number">112</a>
+                <p data-i18n="emergencyNumberText">
+                    For immediate emergencies in India, call 112.
+                </p>
+            </div>
+
         </section>
 
     </main>
 
     <footer>
         <p>© 2026 NammaMarga. All rights reserved.</p>
-        <p>Making public information accessible to everyone.</p>
+        <p data-i18n="footer">
+            Making public information accessible to everyone.
+        </p>
     </footer>
 
     <script src="script.js"></script>
