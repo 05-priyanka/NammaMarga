@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": { "en": "Namma Clinic - Yelahanka", "kn": "ನಮ್ಮ ಕ್ಲಿನಿಕ್ - ಯಲಹಂಕ", "hi": "नम्मा क्लिनिक - यलहंका" },
+    "type": { "en": "Government Primary Health Centre", "kn": "ಸರ್ಕಾರಿ ಪ್ರಾಥಮಿಕ ಆರೋಗ್ಯ ಕೇಂದ್ರ", "hi": "सरकारी प्राथमिक स्वास्थ्य केंद्र" },
+    "timings": "9:00 AM – 4:30 PM (Mon–Sat)",
+    "services": {
+      "en": "Free Doctor Consultation, BP & Diabetes Check, Free Medicines",
+      "kn": "ಉಚಿತ ವೈದ್ಯರ ತಪಾಸಣೆ, ಬಿಪಿ ಮತ್ತು ಸಕ್ಕರೆ ಕಾಯಿಲೆ ಪರೀಕ್ಷೆ, ಉಚಿತ ಔಷಧಗಳು",
+      "hi": "मुफ्त डॉक्टर परामर्श, बीपी और शुगर जांच, मुफ्त दवाइयां"
+    },
+    "phone": "104"
+  },
+  {
+    "id": 2,
+    "name": { "en": "Yelahanka General Hospital", "kn": "ಯಲಹಂಕ ಸರ್ಕಾರಿ ಆಸ್ಪತ್ರೆ", "hi": "यलहंका जनरल अस्पताल" },
+    "type": { "en": "24/7 Government Hospital", "kn": "24/7 ಸರ್ಕಾರಿ ಆಸ್ಪತ್ರೆ", "hi": "24/7 सरकारी अस्पताल" },
+    "timings": "Open 24 Hours (OPD: 9:00 AM – 4:00 PM)",
+    "services": {
+      "en": "Senior Citizen Geriatric OPD, Emergency Ward, X-Ray & Blood Lab",
+      "kn": "ಹಿರಿಯ ನಾಗರಿಕರ ಹೊರರೋಗಿ ವಿಭಾಗ, ತುರ್ತು ಚಿಕಿತ್ಸೆ, ರಕ್ತ ಪರೀಕ್ಷೆ",
+      "hi": "वरिष्ठ नागरिक ओपीडी, आपातकालीन वार्ड, लैब जांच"
+    },
+    "phone": "108"
+  },
+  {
+    "id": 3,
+    "name": { "en": "KC General Hospital - Malleshwaram", "kn": "ಕೆ.ಸಿ. ಜನರಲ್ ಆಸ್ಪತ್ರೆ", "hi": "के.सी. जनरल अस्पताल" },
+    "type": { "en": "Multi-Specialty Public Hospital", "kn": "ಸಾರ್ವಜನಿಕ ಆಸ್ಪತ್ರೆ", "hi": "सार्वजनिक अस्पताल" },
+    "timings": "Open 24 Hours",
+    "services": {
+      "en": "Cardiology, Eye Care, Dialysis, Ayushman Bharat Cashless Counter",
+      "kn": "ಹೃದ್ರೋಗ, ಕಣ್ಣಿನ ಚಿಕಿತ್ಸೆ, ಡಯಾಲಿಸಿಸ್, ಆಯುಷ್ಮಾನ್ ಭಾರತ್ ಕೌಂಟರ್",
+      "hi": "हृदय रोग, नेत्र देखभाल, डायलिसिस, आयुष्मान भारत काउंटर"
+    },
+    "phone": "080-23341771"
+  },
+  {
+    "id": 4,
+    "name": { "en": "Namma Clinic - Hebbal", "kn": "ನಮ್ಮ ಕ್ಲಿನಿಕ್ - ಹೆಬ್ಬಾಳ", "hi": "नम्मा क्लिनिक - हेब्बाल" },
+    "type": { "en": "Urban Health & Wellness Centre", "kn": "ನಗರ ಆರೋಗ್ಯ ಕೇಂದ್ರ", "hi": "शहरी स्वास्थ्य केंद्र" },
+    "timings": "9:00 AM – 4:30 PM (Mon–Sat)",
+    "services": {
+      "en": "General Fever Clinic, Maternal Care, Immunization, Tele-Consultation",
+      "kn": "ಸಾಮಾನ್ಯ ಚಿಕಿತ್ಸೆ, ಲಸಿಕೆ, ಟೆಲಿ-ಕನ್ಸಲ್ಟೇಶನ್",
+      "hi": "सामान्य परामर्श, टीकाकरण, टेली-परामर्श"
+    },
+    "phone": "104"
+  },
+  {
+    "id": 5,
+    "name": { "en": "Jayanagar General Hospital", "kn": "ಜಯನಗರ ಸರ್ಕಾರಿ ಆಸ್ಪತ್ರೆ", "hi": "जयनगर जनरल अस्पताल" },
+    "type": { "en": "24/7 Government Hospital", "kn": "24/7 ಸರ್ಕಾರಿ ಆಸ್ಪತ್ರೆ", "hi": "24/7 सरकारी अस्पताल" },
+    "timings": "Open 24 Hours",
+    "services": {
+      "en": "Orthopedics, Physiotherapy for Seniors, Pharmacy, Emergency",
+      "kn": "ಮೂಳೆ ಚಿಕಿತ್ಸೆ, ಹಿರಿಯರಿಗೆ ಫಿಸಿಯೋಥೆರಪಿ, ಔಷಧಾಲಯ",
+      "hi": "हड्डी रोग, वरिष्ठों के लिए फिजियोथेरेपी, फार्मेसी"
+    },
+    "phone": "080-26635323"
+  },
+  {
+    "id": 6,
+    "name": { "en": "Jan Aushadhi Kendra - Hunasamaranahalli", "kn": "ಜನ ಔಷಧಿ ಕೇಂದ್ರ - ಹುಣಸಮಾರನಹಳ್ಳಿ", "hi": "जन औषधि केंद्र" },
+    "type": { "en": "Affordable Generic Pharmacy", "kn": "ಕಡಿಮೆ ದರದ ಔಷಧಾಲಯ", "hi": "सस्ती जेनेरिक फार्मेसी" },
+    "timings": "8:30 AM – 9:30 PM (All Days)",
+    "services": {
+      "en": "Quality Generic Medicines at 50%–80% Lower Cost for Seniors",
+      "kn": "ಹಿರಿಯ ನಾಗರಿಕರಿಗೆ 50%-80% ರಿಯಾಯಿತಿ ದರದಲ್ಲಿ ಗುಣಮಟ್ಟದ ಔಷಧಗಳು",
+      "hi": "वरिष्ठ नागरिकों के लिए 50%-80% कम कीमत पर गुणवत्तापूर्ण दवाएं"
+    },
+    "phone": "1800-180-8080"
+  }
+]

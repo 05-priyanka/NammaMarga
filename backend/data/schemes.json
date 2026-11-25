@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "category": { "en": "Healthcare & Senior Care", "kn": "ಆರೋಗ್ಯ ಮತ್ತು ಹಿರಿಯರ ಆರೈಕೆ", "hi": "स्वास्थ्य और वरिष्ठ देखभाल" },
+    "name": { "en": "Ayushman Bharat (PM-JAY)", "kn": "ಆಯುಷ್ಮಾನ್ ಭಾರತ್ (PM-JAY)", "hi": "आयुष्मान भारत (PM-JAY)" },
+    "description": {
+      "en": "Free hospital treatment coverage for eligible families and all senior citizens aged 70+.",
+      "kn": "ಅರ್ಹ ಕುಟುಂಬಗಳು ಮತ್ತು 70 ವರ್ಷ ಮೇಲ್ಪಟ್ಟ ಎಲ್ಲಾ ಹಿರಿಯ ನಾಗರಿಕರಿಗೆ ಉಚಿತ ಆಸ್ಪತ್ರೆ ಚಿಕಿತ್ಸೆ.",
+      "hi": "पात्र परिवारों और 70+ वरिष्ठ नागरिकों के लिए मुफ्त अस्पताल उपचार।"
+    },
+    "eligibility": {
+      "en": "Eligible low-income families & all senior citizens aged 70 and above.",
+      "kn": "ಅರ್ಹ ಕುಟುಂಬಗಳು ಮತ್ತು 70 ವರ್ಷ ಮೇಲ್ಪಟ್ಟ ಎಲ್ಲಾ ಹಿರಿಯ ನಾಗರಿಕರು.",
+      "hi": "पात्र परिवार और 70 वर्ष से अधिक आयु के सभी वरिष्ठ नागरिक।"
+    },
+    "benefits": {
+      "en": "Cashless health cover up to ₹5 lakh per family per year.",
+      "kn": "ಪ್ರತಿ ಕುಟುಂಬಕ್ಕೆ ವರ್ಷಕ್ಕೆ ₹5 ಲಕ್ಷದವರೆಗೆ ನಗದು ರಹಿತ ಆರೋಗ್ಯ ವಿಮೆ.",
+      "hi": "प्रति परिवार प्रति वर्ष ₹5 लाख तक का कैशलेस स्वास्थ्य कवर।"
+    },
+    "link": "https://pmjay.gov.in/"
+  },
+  {
+    "id": 2,
+    "category": { "en": "Agriculture", "kn": "ಕೃಷಿ ಕಲ್ಯಾಣ", "hi": "कृषि कल्याण" },
+    "name": { "en": "PM-KISAN Samman Nidhi", "kn": "ಪಿಎಂ-ಕಿಸಾನ್ ಸಮ್ಮಾನ್ ನಿಧಿ", "hi": "पीएम-किसान सम्मान निधि" },
+    "description": {
+      "en": "Direct income support of ₹6,000 per year to eligible farmer families.",
+      "kn": "ಅರ್ಹ ರೈತ ಕುಟುಂಬಗಳಿಗೆ ವರ್ಷಕ್ಕೆ ₹6,000 ನೇರ ಆರ್ಥಿಕ ನೆರವು.",
+      "hi": "पात्र किसान परिवारों को प्रति वर्ष ₹6,000 की सीधी वित्तीय सहायता।"
+    },
+    "eligibility": {
+      "en": "Landholding farmer families subject to scheme guidelines.",
+      "kn": "ಯೋಜನೆಯ ನಿಯಮಗಳಿಗೆ ಒಳಪಟ್ಟ ಭೂಹಿಡುವಳಿ ರೈತ ಕುಟುಂಬಗಳು.",
+      "hi": "योजना दिशानिर्देशों के अधीन भूमिधारक किसान परिवार।"
+    },
+    "benefits": {
+      "en": "₹2,000 every 4 months (₹6,000/year) directly to bank account.",
+      "kn": "ಪ್ರತಿ 4 ತಿಂಗಳಿಗೊಮ್ಮೆ ₹2,000 (ವರ್ಷಕ್ಕೆ ₹6,000) ನೇರವಾಗಿ ಬ್ಯಾಂಕ್ ಖಾತೆಗೆ.",
+      "hi": "हर 4 महीने में ₹2,000 (₹6,000/वर्ष) सीधे बैंक खाते में।"
+    },
+    "link": "https://pmkisan.gov.in/"
+  },
+  {
+    "id": 3,
+    "category": { "en": "Women & Household", "kn": "ಮಹಿಳಾ ಮತ್ತು ಗೃಹ ಕಲ್ಯಾಣ", "hi": "महिला एवं घरेलू कल्याण" },
+    "name": { "en": "Pradhan Mantri Ujjwala Yojana", "kn": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಉಜ್ವಲ ಯೋಜನೆ", "hi": "प्रधानमंत्री उज्ज्वला योजना" },
+    "description": {
+      "en": "Provides clean cooking gas (LPG) connections to women from eligible households.",
+      "kn": "ಅರ್ಹ ಕುಟುಂಬಗಳ ಮಹಿಳೆಯರಿಗೆ ಉಚಿತ ಅಡುಗೆ ಅನಿಲ (LPG) ಸಂಪರ್ಕ.",
+      "hi": "पात्र परिवारों की महिलाओं को मुफ्त रसोई गैस (LPG) कनेक्शन।"
+    },
+    "eligibility": {
+      "en": "Adult women from eligible households without an existing LPG connection.",
+      "kn": "ಮನೆಯಲ್ಲಿ LPG ಸಂಪರ್ಕವಿಲ್ಲದ ಅರ್ಹ ಕುಟುಂಬಗಳ ವಯಸ್ಕ ಮಹಿಳೆಯರು.",
+      "hi": "बिना एलपीजी कनेक्शन वाले पात्र परिवारों की वयस्क महिलाएं।"
+    },
+    "benefits": {
+      "en": "Deposit-free LPG cylinder connection and first refill assistance.",
+      "kn": "ಠೇವಣಿ ರಹಿತ LPG ಸಂಪರ್ಕ ಮತ್ತು ಮೊದಲ ಸಿಲಿಂಡರ್ ನೆರವು.",
+      "hi": "जमा-मुक्त एलपीजी कनेक्शन और पहली रिफिल सहायता।"
+    },
+    "link": "https://www.pmuy.gov.in/"
+  },
+  {
+    "id": 4,
+    "category": { "en": "Karnataka State Scheme", "kn": "ಕರ್ನಾಟಕ ರಾಜ್ಯ ಯೋಜನೆ", "hi": "कर्नाटक राज्य योजना" },
+    "name": { "en": "Gruha Lakshmi Scheme", "kn": "ಗೃಹಲಕ್ಷ್ಮಿ ಯೋಜನೆ", "hi": "गृह लक्ष्मी योजना" },
+    "description": {
+      "en": "Monthly financial assistance for women heads of households in Karnataka.",
+      "kn": "ಕರ್ನಾಟಕದ ಕುಟುಂಬದ ಯಜಮಾನಿ ಮಹಿಳೆಯರಿಗೆ ಮಾಸಿಕ ಆರ್ಥಿಕ ನೆರವು.",
+      "hi": "कर्नाटक में परिवार की महिला मुखिया को मासिक वित्तीय सहायता।"
+    },
+    "eligibility": {
+      "en": "Women listed as head of family on Antyodaya, BPL, or APL ration cards.",
+      "kn": "ಬಿಪಿಎಲ್, ಎಪಿಎಲ್ ಅಥವಾ ಅಂತ್ಯೋದಯ ಪಡಿತರ ಚೀಟಿಯಲ್ಲಿ ಕುಟುಂಬದ ಯಜಮಾನಿಯಾಗಿರುವ ಮಹಿಳೆಯರು.",
+      "hi": "बीपीएल, एपीएल या अंत्योदय राशन कार्ड में परिवार की मुखिया के रूप में सूचीबद्ध महिलाएं।"
+    },
+    "benefits": {
+      "en": "₹2,000 per month transferred directly via DBT.",
+      "kn": "ಪ್ರತಿ ತಿಂಗಳು ₹2,000 ನೇರವಾಗಿ ಬ್ಯಾಂಕ್ ಖಾತೆಗೆ ಜಮಾ.",
+      "hi": "प्रति माह ₹2,000 सीधे बैंक खाते में ट्रांसफर।"
+    },
+    "link": "https://sevasindhugs.karnataka.gov.in/"
+  },
+  {
+    "id": 5,
+    "category": { "en": "Senior Citizen Pension", "kn": "ಹಿರಿಯ ನಾಗರಿಕರ ಪಿಂಚಣಿ", "hi": "वरिष्ठ नागरिक पेंशन" },
+    "name": { "en": "Sandhya Suraksha Yojana", "kn": "ಸಂಧ್ಯಾ ಸುರಕ್ಷಾ ಯೋಜನೆ", "hi": "संध्या सुरक्षा योजना" },
+    "description": {
+      "en": "Social security monthly pension for senior citizens in Karnataka.",
+      "kn": "ಕರ್ನಾಟಕದ ಹಿರಿಯ ನಾಗರಿಕರಿಗೆ ಮಾಸಿಕ ಸಾಮಾಜಿಕ ಭದ್ರತಾ ಪಿಂಚಣಿ.",
+      "hi": "कर्नाटक के वरिष्ठ नागरिकों के लिए मासिक सामाजिक सुरक्षा पेंशन।"
+    },
+    "eligibility": {
+      "en": "Karnataka residents aged 65 years and above within income limits.",
+      "kn": "65 ವರ್ಷ ಮತ್ತು ಅದಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ವಯಸ್ಸಿನ ಕರ್ನಾಟಕದ ನಿವಾಸಿಗಳು.",
+      "hi": "65 वर्ष और उससे अधिक आयु के कर्नाटक के निवासी।"
+    },
+    "benefits": {
+      "en": "₹1,200 monthly pension + discounted KSRTC/BMTC bus pass.",
+      "kn": "ಮಾಸಿಕ ₹1,200 ಪಿಂಚಣಿ ಮತ್ತು ರಿಯಾಯಿತಿ ದರದ ಬಸ್ ಪಾಸ್.",
+      "hi": "₹1,200 मासिक पेंशन + रियायती बस पास।"
+    },
+    "link": "https://nadakacheri.karnataka.gov.in/"
+  }
+]

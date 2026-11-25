@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "routeNumber": "500D",
+    "from": "Hebbal",
+    "to": "Electronic City",
+    "stops": ["Hebbal", "KR Market", "Silk Board", "Electronic City"],
+    "description": "Connects Hebbal with Electronic City."
+  },
+  {
+    "id": 2,
+    "routeNumber": "335E",
+    "from": "Kempegowda Bus Station",
+    "to": "Whitefield",
+    "stops": ["Majestic", "MG Road", "Marathahalli", "Whitefield"],
+    "description": "Connects central Bengaluru with Whitefield."
+  },
+  {
+    "id": 3,
+    "routeNumber": "KIA-8",
+    "from": "Kempegowda International Airport",
+    "to": "Kempegowda Bus Station",
+    "stops": ["Airport", "Hebbal", "Esteem Mall", "Majestic"],
+    "description": "Airport bus connection to central Bengaluru."
+  }
+]
